@@ -44,7 +44,7 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  .jumbotron-section h1 {
+  .jumbotron-section .jumbotron-section_text {
     font-size: 36px;
     text-transform: uppercase;
     margin: 0;
@@ -67,7 +67,7 @@ body {
       background-color: #23b7a4;
       border: none; }
 
-.team-section h2 {
+.team-section .team-section_title {
   padding-left: 15px;
   border-left: 15px solid #e1e6ea;
   text-transform: uppercase;
