@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+.header {
+    background-color: rgb(29,33,38);
+    height: 80px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    ul {
+        display: flex;
+        list-style-type: none;
+        li {
+            padding: 25px;
+        }
+        a {
+            padding: 5px;
+            border-radius: 10%;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: rgb(137,146,146);
+            &:hover {
+                transition: 0.3s all;
+                border: 1px solid rgb(137,146,146);
+                color:rgb(35,183,164)
+            }
+        }
+    }
+}
+
+.jumbotron-section {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-image: url(../css/img/header-img.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    h1 {
+        font-size: 36px;
+        text-transform: uppercase;
+        margin: 0;
+        cursor: pointer;
+    }
+    p {
+        padding-bottom: 10px;
+        font-size: 16px;
+        max-width: 650px;
+        width: 100%;
+    }
+    .button {
+        margin-right: 10px;
+        width: 120px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 5px;
+        background-color: transparent;
+        text-transform: uppercase;
+        &:hover {
+            transition: 0.3s all;
+            background-color: rgb(35,183,164);
+            border: none;
+        }
+    }
+}
+
+.team-section {
+    h2 {
+        padding-left: 15px;
+        border-left: 15px solid rgb(225,230,234);
+        text-transform: uppercase;
+        font-size: 36px;
+    }
+}
