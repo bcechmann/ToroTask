@@ -5,9 +5,10 @@ body {
 }
 
 .header {
-    background-color: rgb(29,33,38);
+    background-color: rgb(29, 33, 38);
     height: 80px;
 }
+
 .nav {
     display: flex;
     align-items: center;
@@ -25,11 +26,11 @@ body {
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
-            color: rgb(137,146,146);
+            color: rgb(137, 146, 146);
             &:hover {
                 transition: 0.3s all;
-                border: 1px solid rgb(137,146,146);
-                color:rgb(35,183,164)
+                border: 1px solid rgb(137, 146, 146);
+                color: rgb(35, 183, 164)
             }
         }
     }
@@ -66,20 +67,41 @@ body {
         text-transform: uppercase;
         &:hover {
             transition: 0.3s all;
-            background-color: rgb(35,183,164);
+            background-color: rgb(35, 183, 164);
             border: none;
         }
     }
 }
 
 .team-section {
+    padding: 50px 0;
     .team-section_title {
         padding-left: 15px;
-        border-left: 15px solid rgb(225,230,234);
+        border-left: 15px solid rgb(225, 230, 234);
         text-transform: uppercase;
         font-size: 36px;
     }
     .team-member {
-
+        .member {
+            height: 375px;
+            background-color: rgb(225, 230, 234);
+        }
+        .member-pic{
+            &:hover {
+                cursor: pointer;
+                transition: 0.5s all;
+                filter: blur(2px)
+            }
+        }
+        .member-pic_name {
+            padding: 15px;
+            h3, p{
+                margin: 0;
+                padding: 0;
+            }
+            p {
+                color: rgb(141,143,146);
+            }
+        }
     }
 }
