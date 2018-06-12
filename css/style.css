@@ -125,4 +125,55 @@ body {
     .team-section .team-member .member-pic_name p {
       color: #8d8f92; }
 
+.work-section {
+  padding: 50px 0;
+  background-color: #3a454d; }
+  .work-section .work-section_title {
+    padding-left: 15px;
+    border-left: 15px solid #4e5a62;
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px; }
+  .work-section .work-section_gallery .pic-box {
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-bottom: 30px;
+    position: relative; }
+    .work-section .work-section_gallery .pic-box:hover .gallery-pic_layer {
+      display: initial; }
+    .work-section .work-section_gallery .pic-box:hover .gallery-pic_text {
+      display: -ms-flexbox;
+      display: flex; }
+    .work-section .work-section_gallery .pic-box:hover .fas {
+      display: initial; }
+    .work-section .work-section_gallery .pic-box .fas {
+      display: none;
+      position: absolute;
+      top: 35%;
+      color: white; }
+  .work-section .work-section_gallery .gallery-pic_layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #292f36;
+    opacity: 0.5;
+    display: none; }
+  .work-section .work-section_gallery .gallery-pic_text {
+    position: absolute;
+    display: none;
+    padding-left: 20px;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    background-color: #292f36; }
+    .work-section .work-section_gallery .gallery-pic_text .pic_text {
+      font-weight: 300; }
+
 /*# sourceMappingURL=style.css.map */
