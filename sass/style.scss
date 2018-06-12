@@ -86,37 +86,45 @@ body {
         .member {
             height: 375px;
             background-color: rgb(225, 230, 234);
-        }
-        .team-member_pic {
             position: relative;
-            &:hover .team-member_social {
-                display: initial;
+            &:hover .member-pic_name {
+                transition: 0.3s all;
+                background-color: rgb(58, 69, 77);
+                color: white;
             }
-            .team-member_social {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-33%, -10%);
-                height: 100%;
-                width: 100%;
-                display: none;
-                .social-box {
-                    display: inline-block;
-                    height: 55px;
-                    width: 55px;
-                    background-color: rgb(58, 69, 77);
-                    .fab {
-                        z-index: 12312412;
-                        cursor: pointer;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color: white;
-                        height: 100%;
-                    }
-                }
+            &:hover .team-member_pic {
+                transition: 0.3s all;
+                opacity: 0.5;
+            }
+            &:hover .team-member_social {
+                display: flex;
             }
         }
+        .team-member_social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: calc(-15%);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 5;
+            display: none;
+            .social-box {
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 2px;
+                height: 55px;
+                width: 55px;
+                background-color: rgb(58, 69, 77);
+            }
+            .fab {
+                color: white;
+            }
+        }
+        .team-member_pic {}
         .member-pic_name {
             padding: 15px;
             h3,
