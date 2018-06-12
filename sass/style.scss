@@ -82,6 +82,7 @@ body {
         border-left: 15px solid rgb(225, 230, 234);
         text-transform: uppercase;
         font-size: 36px;
+        font-weight: normal;
     }
     .team-member {
         .member {
@@ -148,6 +149,7 @@ body {
         color: white;
         text-transform: uppercase;
         font-size: 36px;
+        font-weight: normal;
     }
     .pic-box {
         cursor: pointer;
@@ -194,12 +196,47 @@ body {
             font-weight: 300;
         }
     }
+    .work-section_button {
+        text-align: center;
+        margin-top: 50px;
+        .btn-show-more {
+            color: white;
+            width: 150px;
+        }
+    }
 }
-.work-section_button {
-    text-align: center;
-    margin-top: 50px;
-    .btn-show-more {
-        color: white;
-        width: 150px;
+
+.services-section {
+    padding: 50px 0;
+    .services-section_title {
+        padding-left: 15px;
+        margin-bottom: 100px;
+        border-left: 15px solid rgb(225, 230, 234);
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: normal;
+    }
+    .service-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .service-box_description {
+            text-align: center;
+            .service-box_title {
+                text-transform: uppercase;
+                font-size: 17px;
+                padding-top: 10px;
+                font-weight: normal;
+            }
+            .service-box_text {
+                font-size: 16px;
+                line-height: 1.6;
+                color: rgb(141, 143, 146);
+            }
+        }
+    }
+    .services_row {
+        padding-bottom: 50px;
     }
 }
