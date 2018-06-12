@@ -55,18 +55,19 @@ body {
     font-size: 16px;
     max-width: 650px;
     width: 100%; }
-  .jumbotron-section .button {
-    margin-right: 10px;
-    width: 120px;
-    height: 40px;
-    border: 2px solid white;
-    border-radius: 5px;
-    background-color: transparent;
-    text-transform: uppercase; }
-    .jumbotron-section .button:hover {
-      transition: 0.3s all;
-      background-color: #23b7a4;
-      border: none; }
+
+.button {
+  margin-right: 10px;
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: uppercase; }
+  .button:hover {
+    transition: 0.3s all;
+    background-color: #23b7a4;
+    border: none; }
 
 .team-section {
   padding: 50px 0; }
@@ -175,5 +176,10 @@ body {
     background-color: #292f36; }
     .work-section .work-section_gallery .gallery-pic_text .pic_text {
       font-weight: 300; }
+  .work-section .work-section_button {
+    text-align: center; }
+    .work-section .work-section_button .btn-show-more {
+      color: white;
+      width: 150px; }
 
 /*# sourceMappingURL=style.css.map */

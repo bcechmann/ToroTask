@@ -58,19 +58,20 @@ body {
         max-width: 650px;
         width: 100%;
     }
-    .button {
-        margin-right: 10px;
-        width: 120px;
-        height: 40px;
-        border: 2px solid white;
-        border-radius: 5px;
-        background-color: transparent;
-        text-transform: uppercase;
-        &:hover {
-            transition: 0.3s all;
-            background-color: rgb(35, 183, 164);
-            border: none;
-        }
+}
+
+.button {
+    margin-right: 10px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    text-transform: uppercase;
+    &:hover {
+        transition: 0.3s all;
+        background-color: rgb(35, 183, 164);
+        border: none;
     }
 }
 
@@ -193,6 +194,13 @@ body {
             .pic_text {
                 font-weight: 300;
             }
+        }
+    }
+    .work-section_button {
+        text-align: center;
+        .btn-show-more {
+            color: white;
+            width: 150px;
         }
     }
 }
