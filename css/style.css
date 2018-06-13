@@ -315,4 +315,41 @@ body {
         .contact-section .contact-box .contact-form .send-btn .active {
           transform: scale(1.05); }
 
+.footer {
+  height: 95px;
+  background-color: #3a454d;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .footer .footer-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    .footer .footer-content .footer-info {
+      color: white;
+      font-size: 14px;
+      display: inline-block; }
+    .footer .footer-content .footer-social {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center; }
+      .footer .footer-content .footer-social .fab {
+        color: white; }
+      .footer .footer-content .footer-social a {
+        margin: 0 10px; }
+        .footer .footer-content .footer-social a:hover {
+          display: inline-block;
+          vertical-align: middle;
+          transform: perspective(1px) translateZ(0);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+          transition-duration: 0.3s;
+          transition-property: transform; }
+        .footer .footer-content .footer-social a:hover,
+        .footer .footer-content .footer-social a .focus,
+        .footer .footer-content .footer-social a .active {
+          transform: scale(1.1); }
+
 /*# sourceMappingURL=style.css.map */
