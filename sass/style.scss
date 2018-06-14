@@ -8,19 +8,24 @@ body {
 //Navigation & Jumbotron + Media queries ***
 .navbar {
     background-color: rgb(29, 33, 38);
-    height: 80px;
+    height: auto;
     .nav-link {
         margin: 0 25px;
-        border-radius: 10%;
+        border-radius: 10px;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
         color: rgb(137, 146, 146);
         &:hover {
-            transition: 0.3s all;
-            border: 1px solid rgb(137, 146, 146);
-            color: rgb(35, 183, 164)
+            border: 2px solid rgb(137, 146, 146);
         }
+    }
+    .active {
+        color: rgb(35, 183, 164);
+        border: 2px solid rgb(35, 183, 164);
+    }
+    .navbar-toggler {
+        color: white;
     }
 }
 
