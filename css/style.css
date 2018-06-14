@@ -39,7 +39,7 @@ body {
     color: white;
     display: none; }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1010px) {
   .nav {
     -ms-flex-pack: end;
         justify-content: end;
@@ -52,7 +52,7 @@ body {
       display: none; }
     .nav .icon {
       display: block; } }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1010px) {
   .logo {
     display: block;
     text-align: center; }
