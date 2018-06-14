@@ -153,10 +153,19 @@ body {
     .img-responsive {
         margin: auto;
     }
-    
     .member-pic_name {
-        h3,p {
+        margin: auto;
+        max-width: 264px;
+        h3,
+        p {
             text-align: center;
+        }
+    }
+    .team-section {
+        .team-member {
+            .member {
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -383,6 +392,30 @@ body {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    //Contact RWD
+    .contact-section {
+        .contact-section_bg {
+            height: 145px;
+        }
+        .contact-box {
+            position: initial;
+            top: 0;
+            left: 0;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    //Map display on low-res
+    .contact-section {
+        .contact-section_bg {
+            display: none;
+        }
+    }
+}
+
 .footer {
     height: 95px;
     background-color: rgb(58, 69, 77);
@@ -421,6 +454,18 @@ body {
                     -webkit-transform: scale(1.1);
                     transform: scale(1.1);
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer {
+        .footer-content {
+            flex-wrap: wrap;
+            justify-content: center;
+            .footer-info {
+                text-align: center;
             }
         }
     }

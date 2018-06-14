@@ -138,8 +138,15 @@ body {
   .img-responsive {
     margin: auto; }
 
-  .member-pic_name h3, .member-pic_name p {
-    text-align: center; } }
+  .member-pic_name {
+    margin: auto;
+    max-width: 264px; }
+    .member-pic_name h3,
+    .member-pic_name p {
+      text-align: center; }
+
+  .team-section .team-member .member {
+    margin-bottom: 20px; } }
 .work-section {
   padding: 50px 0;
   background-color: #3a454d; }
@@ -327,6 +334,17 @@ body {
         .contact-section .contact-box .contact-form .send-btn .active {
           transform: scale(1.05); }
 
+@media only screen and (max-width: 1200px) {
+  .contact-section .contact-section_bg {
+    height: 145px; }
+  .contact-section .contact-box {
+    position: initial;
+    top: 0;
+    left: 0;
+    text-align: center; } }
+@media only screen and (max-width: 700px) {
+  .contact-section .contact-section_bg {
+    display: none; } }
 .footer {
   height: 95px;
   background-color: #3a454d;
@@ -363,5 +381,14 @@ body {
         .footer .footer-content .footer-social a .focus,
         .footer .footer-content .footer-social a .active {
           transform: scale(1.1); }
+
+@media only screen and (max-width: 1200px) {
+  .footer .footer-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .footer .footer-content .footer-info {
+      text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
