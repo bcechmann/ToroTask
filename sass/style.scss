@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
 }
 
+// Header & Navigation + Media queries ***
 .header {
     background-color: rgb(29, 33, 38);
     height: auto;
@@ -38,7 +39,7 @@ body {
     }
     .icon {
         text-decoration: none;
-        color: white; 
+        color: white;
         display: none;
     }
 }
@@ -53,7 +54,6 @@ body {
             padding-left: 30px;
         }
         ul {
-            
             li {
                 &:not(:first-child) {
                     display: none;
@@ -67,10 +67,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    //Hamburger Style
+    //Hamburger RWD
     .logo {
-       display: block;
-       text-align: center;
+        display: block;
+        text-align: center;
     }
     .nav-responsive {
         position: relative;
@@ -148,6 +148,7 @@ body {
     }
 }
 
+// Team Section + Media queries ***
 .team-section {
     padding: 50px 0;
     .team-section_title {
@@ -219,7 +220,7 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-    //Team RWD
+    //Team section RWD
     .img-responsive {
         margin: auto;
     }
@@ -240,6 +241,7 @@ body {
     }
 }
 
+// Work Gallery + Media queries ***
 .work-section {
     padding: 50px 0;
     background-color: rgb(58, 69, 77);
@@ -316,6 +318,8 @@ body {
     }
 }
 
+//Services section
+
 .services-section {
     padding: 50px 0;
     .services-section_title {
@@ -351,6 +355,8 @@ body {
         padding-bottom: 50px;
     }
 }
+
+// Contact section + Media queries
 
 .contact-section {
     padding: 50px 0;
@@ -486,6 +492,8 @@ body {
     }
 }
 
+//Footer + Media queries
+
 .footer {
     height: 95px;
     background-color: rgb(58, 69, 77);
@@ -530,6 +538,7 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+    //Footer RWD
     .footer {
         .footer-content {
             flex-wrap: wrap;
