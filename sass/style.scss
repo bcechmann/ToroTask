@@ -85,8 +85,11 @@ body {
         font-weight: bold;
     }
     .team-member {
+        width: auto;
         .member {
             position: relative;
+            display: flex;
+            flex-direction: column;
             &:hover .member-pic_name {
                 transition: 0.3s all;
                 background-color: rgb(58, 69, 77);
@@ -127,10 +130,14 @@ body {
                 color: white;
             }
         }
+        .team-member_pic {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
         .member-pic_name {
             display: flex;
             flex-direction: column;
-            width: auto;
             padding: 15px;
             background-color: rgb(225, 230, 234);
             h3,
@@ -144,6 +151,18 @@ body {
             p {
                 font-size: 14px;
                 color: rgb(141, 143, 146);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .team-member {
+        padding-bottom: 20px;
+        margin: auto;
+        .member {
+            .member-pic_name {
+                align-items: center;
             }
         }
     }

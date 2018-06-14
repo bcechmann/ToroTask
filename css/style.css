@@ -73,65 +73,83 @@ body {
     text-transform: uppercase;
     font-size: 36px;
     font-weight: bold; }
-  .team-section .team-member .member {
-    position: relative; }
-    .team-section .team-member .member:hover .member-pic_name {
-      transition: 0.3s all;
-      background-color: #3a454d;
-      color: white; }
-    .team-section .team-member .member:hover .team-member_pic {
-      transition: 0.3s all;
-      opacity: 0.5; }
-    .team-section .team-member .member:hover .team-member_social {
+  .team-section .team-member {
+    width: auto; }
+    .team-section .team-member .member {
+      position: relative;
       display: -ms-flexbox;
-      display: flex; }
-  .team-section .team-member .team-member_social {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    top: calc(-15%);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 5;
-    display: none; }
-    .team-section .team-member .team-member_social .social-box {
-      cursor: pointer;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      .team-section .team-member .member:hover .member-pic_name {
+        transition: 0.3s all;
+        background-color: #3a454d;
+        color: white; }
+      .team-section .team-member .member:hover .team-member_pic {
+        transition: 0.3s all;
+        opacity: 0.5; }
+      .team-section .team-member .member:hover .team-member_social {
+        display: -ms-flexbox;
+        display: flex; }
+    .team-section .team-member .team-member_social {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: center;
           justify-content: center;
       -ms-flex-align: center;
           align-items: center;
-      margin: 2px;
-      height: 55px;
-      width: 55px;
-      background-color: #3a454d; }
-      .team-section .team-member .team-member_social .social-box:hover {
-        background-color: #4e5a62; }
-    .team-section .team-member .team-member_social .fab {
-      color: white; }
-  .team-section .team-member .member-pic_name {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    width: auto;
-    padding: 15px;
-    background-color: #e1e6ea; }
-    .team-section .team-member .member-pic_name h3,
-    .team-section .team-member .member-pic_name p {
-      margin: 0;
-      padding: 0; }
-    .team-section .team-member .member-pic_name h3 {
-      font-size: 16px; }
-    .team-section .team-member .member-pic_name p {
-      font-size: 14px;
-      color: #8d8f92; }
+      top: calc(-15%);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 5;
+      display: none; }
+      .team-section .team-member .team-member_social .social-box {
+        cursor: pointer;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        margin: 2px;
+        height: 55px;
+        width: 55px;
+        background-color: #3a454d; }
+        .team-section .team-member .team-member_social .social-box:hover {
+          background-color: #4e5a62; }
+      .team-section .team-member .team-member_social .fab {
+        color: white; }
+    .team-section .team-member .team-member_pic {
+      width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; }
+    .team-section .team-member .member-pic_name {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      padding: 15px;
+      background-color: #e1e6ea; }
+      .team-section .team-member .member-pic_name h3,
+      .team-section .team-member .member-pic_name p {
+        margin: 0;
+        padding: 0; }
+      .team-section .team-member .member-pic_name h3 {
+        font-size: 16px; }
+      .team-section .team-member .member-pic_name p {
+        font-size: 14px;
+        color: #8d8f92; }
 
+@media screen and (max-width: 1140px) {
+  .team-member {
+    padding-bottom: 20px;
+    margin: auto; }
+    .team-member .member .member-pic_name {
+      -ms-flex-align: center;
+          align-items: center; } }
 .work-section {
   padding: 50px 0;
   background-color: #3a454d; }
