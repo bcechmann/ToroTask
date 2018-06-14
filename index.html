@@ -28,7 +28,8 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+                <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="css/img/logo.png" alt="logo">
             </a>
@@ -38,31 +39,32 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item m-auto">
                         <a class="nav-link active" href="#Home">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item m-auto">
                         <a class="nav-link" href="#About">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item m-auto">
                         <a class="nav-link" href="#Work">Work</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item m-auto">
                         <a class="nav-link" href="#Team">Team</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item m-auto">
                         <a class="nav-link" href="#Services">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item m-auto">
                         <a class="nav-link" href="#Features">Features</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item m-auto">
                         <a class="nav-link" href="#Contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
+    </div>
 
         <section class="jumbotron-section">
             <div class="container">
@@ -71,8 +73,8 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla
                     vestibulu lacus...
                 </p>
-                <button class="button btn-view">View more</button>
-                <button class="button btn-video">Video tour</button>
+                <button class="m-auto button btn-jumbo">View more</button>
+                <button class="m-auto button btn-jumbo">Video tour</button>
             </div>
         </section>
 
@@ -379,7 +381,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-xs-12">
+                    <div class=" col-xl-6 col-md-12 col-xs-12">
                         <h4 class="contact-info_title">Contact information</h4>
                         <p class="contact-info_text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor.
@@ -390,8 +392,9 @@
                             <span>vel sodales</span> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus.
                         </p>
                     </div>
-                    <div class="col-xl-6 col-xs-12 contact-box">
+                    <div class="col-xl-6 col-md-12 col-xs-12 contact-box">
                         <form id="contact-form" class="contact-form" method="POST">
+                            <div class="small-input">
                             <div class="col-md-6 col-xs-12">
                                 <label for="nameInput">Your name</label>
                                 <input type="text" name="name" id="nameInput" required>
@@ -400,6 +403,7 @@
                                 <label for="emailInput">Your email</label>
                                 <input type="email" name="email" id="emailInput" required>
                             </div>
+                        </div>
                             <div class="col-md-12 col-xs-12">
                                 <label for="messageInput">Your message</label>
                                 <textarea name="message" id="messageInput" wrap="hard" rows="12" cols="20" required></textarea>
@@ -413,10 +417,9 @@
 
         <footer class="footer">
             <div class="container">
-                <div class="row">
                     <div class="footer-content">
                         <h4 class="footer-info">© Copyright 2014 by PSD Booster. All Rights Reserved.</h4>
-                        <div class="footer-social col-xl-6">
+                        <div class="footer-social">
                             <a href="#">
                                 <i class="fab fa-lg fa-twitter"></i>
                             </a>
@@ -434,7 +437,6 @@
                             </a>
                         </div>
                     </div>
-                </div>
             </div>
         </footer>
         <script src="js/validate.js"></script>
