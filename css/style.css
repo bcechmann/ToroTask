@@ -154,14 +154,15 @@ body {
   padding: 50px 0;
   background-color: #3a454d; }
   .work-section .work-section_title {
-    margin: 0 0 50px;
     font-family: "Quattrocento Sans";
+    margin: 0 0 50px;
     padding-left: 15px;
-    border-left: 15px solid #4e5a62;
-    color: white;
+    border-left: 15px solid #e1e6ea;
     text-transform: uppercase;
     font-size: 36px;
-    font-weight: bold; }
+    font-weight: bold;
+    border-left: 15px solid #4e5a62;
+    color: white; }
   .work-section .pic-box {
     cursor: pointer;
     display: -ms-flexbox;
@@ -215,10 +216,9 @@ body {
 .services-section {
   padding: 50px 0; }
   .services-section .services-section_title {
-    margin: 0 0 50px;
     font-family: "Quattrocento Sans";
+    margin: 0 0 50px;
     padding-left: 15px;
-    margin-bottom: 100px;
     border-left: 15px solid #e1e6ea;
     text-transform: uppercase;
     font-size: 36px;
@@ -250,12 +250,11 @@ body {
   padding: 50px 0;
   position: relative; }
   .contact-section .contact-section_title {
+    font-family: "Quattrocento Sans";
     margin: 0 0 50px;
     padding-left: 15px;
-    margin-bottom: 100px;
     border-left: 15px solid #e1e6ea;
     text-transform: uppercase;
-    font-family: "Quattrocento Sans";
     font-size: 36px;
     font-weight: bold; }
   .contact-section .contact-section_bg {
