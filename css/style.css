@@ -75,8 +75,6 @@ body {
     font-weight: bold; }
   .team-section .team-member .member {
     position: relative; }
-    .team-section .team-member .member .img-fluid {
-      width: 100%; }
     .team-section .team-member .member:hover .member-pic_name {
       transition: 0.3s all;
       background-color: #3a454d;
@@ -344,7 +342,12 @@ body {
         flex-wrap: wrap; } }
 @media screen and (max-width: 786px) {
   .contact-section .contact-section_bg {
-    display: none; } }
+    display: none; }
+  .contact-section .contact-section_title {
+    margin-bottom: 50px; }
+
+  .services-section .services-section_title {
+    margin-bottom: 50px; } }
 .footer {
   margin-top: 150px;
   height: 95px;
@@ -386,8 +389,10 @@ body {
           transform: scale(1.1); }
 
 @media screen and (max-width: 786px) {
-  .footer .footer-content {
-    -ms-flex-pack: center;
-        justify-content: center; } }
+  .footer {
+    margin-top: 0; }
+    .footer .footer-content {
+      -ms-flex-pack: center;
+          justify-content: center; } }
 
 /*# sourceMappingURL=style.css.map */

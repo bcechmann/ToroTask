@@ -87,9 +87,6 @@ body {
     .team-member {
         .member {
             position: relative;
-            .img-fluid {
-                width: 100%;
-            }
             &:hover .member-pic_name {
                 transition: 0.3s all;
                 background-color: rgb(58, 69, 77);
@@ -398,6 +395,14 @@ body {
         .contact-section_bg {
             display: none;
         }
+        .contact-section_title {
+            margin-bottom: 50px;
+        }
+    }
+    .services-section {
+        .services-section_title {
+            margin-bottom: 50px;
+        }
     }
 }
 
@@ -449,6 +454,7 @@ body {
 
 @media screen and (max-width: 786px) {
     .footer {
+        margin-top: 0;
         .footer-content {
             justify-content: center;
         }
