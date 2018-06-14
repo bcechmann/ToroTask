@@ -59,6 +59,8 @@ body {
 
   .nav-responsive {
     position: relative; }
+    .nav-responsive .logo {
+      padding-top: 5px; }
     .nav-responsive ul {
       padding: 0;
       display: block;

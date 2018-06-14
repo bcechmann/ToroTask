@@ -74,6 +74,9 @@ body {
     }
     .nav-responsive {
         position: relative;
+        .logo {
+            padding-top: 5px;
+        }
         ul {
             padding: 0;
             display: block;
