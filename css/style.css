@@ -15,7 +15,8 @@ body {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  height: 80px; }
+  height: 80px;
+  position: relative; }
   .nav ul {
     display: -ms-flexbox;
     display: flex;
@@ -82,7 +83,7 @@ body {
     font-weight: bold; }
   .team-section .team-member .member {
     height: 375px;
-    background-color: #e1e6ea;
+    width: auto;
     position: relative; }
     .team-section .team-member .member:hover .member-pic_name {
       transition: 0.3s all;
@@ -124,7 +125,8 @@ body {
     .team-section .team-member .team-member_social .fab {
       color: white; }
   .team-section .team-member .member-pic_name {
-    padding: 15px; }
+    padding: 15px;
+    background-color: #e1e6ea; }
     .team-section .team-member .member-pic_name h3,
     .team-section .team-member .member-pic_name p {
       margin: 0;
@@ -132,6 +134,12 @@ body {
     .team-section .team-member .member-pic_name p {
       color: #8d8f92; }
 
+@media only screen and (min-width: 786px) {
+  .img-responsive {
+    margin: auto; }
+
+  .member-pic_name h3, .member-pic_name p {
+    text-align: center; } }
 .work-section {
   padding: 50px 0;
   background-color: #3a454d; }

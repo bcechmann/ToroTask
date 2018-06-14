@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    position: relative;
     ul {
         display: flex;
         list-style-type: none;
@@ -90,7 +91,7 @@ body {
     .team-member {
         .member {
             height: 375px;
-            background-color: rgb(225, 230, 234);
+            width: auto;
             position: relative;
             &:hover .member-pic_name {
                 transition: 0.3s all;
@@ -134,6 +135,7 @@ body {
         }
         .member-pic_name {
             padding: 15px;
+            background-color: rgb(225, 230, 234);
             h3,
             p {
                 margin: 0;
@@ -142,6 +144,18 @@ body {
             p {
                 color: rgb(141, 143, 146);
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 786px) {
+    .img-responsive {
+        margin: auto;
+    }
+    
+    .member-pic_name {
+        h3,p {
+            text-align: center;
         }
     }
 }
