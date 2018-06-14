@@ -6,7 +6,7 @@ body {
 
 .header {
   background-color: #1d2126;
-  height: 80px; }
+  height: auto; }
 
 .nav {
   display: -ms-flexbox;
