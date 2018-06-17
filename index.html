@@ -414,11 +414,11 @@
                             <div class="small-input">
                                 <div class="col-md-6 col-xs-12">
                                     <label for="nameInput">Your name</label>
-                                    <input type="text" name="name" id="nameInput" required>
+                                    <input type="text" name="name" id="nameInput" pattern="[A-Za-z]{1,32}" required>
                                 </div>
                                 <div class="col-md-6 col-xs-12">
                                     <label for="emailInput">Your email</label>
-                                    <input type="email" name="email" id="emailInput" required>
+                                    <input type="email" name="email" id="emailInput" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                                 </div>
                             </div>
                             <div class="col-md-12 col-xs-12">
