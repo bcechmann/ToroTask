@@ -279,11 +279,8 @@ body {
     .contact-section_title {
         @include section-title();
     }
-    .contact-section_bg {
-        background-image: url(../css/img/contact-bg.png);
-        height: 346px;
-        background-repeat: no-repeat;
-        background-size: 100%;
+    .contact-section_map {
+    
     }
     .contact-info_title {
         margin-left: 10px;
