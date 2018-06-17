@@ -16,7 +16,8 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    color: #899292; }
+    color: #899292;
+    border: 2px solid transparent; }
     .navbar .nav-link:hover {
       border: 2px solid #899292; }
   .navbar .active {
