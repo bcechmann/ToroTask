@@ -43,13 +43,29 @@ body {
 }
 
 .jumbotron-section {
-    height: 100vh;
-    background-image: url(../css/img/header-bg.png);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
+    .carousel-indicators {
+        display: flex;
+        justify-content: flex-end;
+        li {
+            border-radius: 10px;
+            border: 1px solid white;
+            background-color: transparent;
+            max-width: 12px;
+            height: 12px;
+        }
+    }
+    .carousel-caption {
+        right: 0;
+        top: 30%;
+        text-align: left;
+    }
+    .carousel-indicators .active {
+        border-radius: 10px;
+        background-color: #fff;
+        max-width: 12px;
+        margin: 0 3px;
+        height: 12px;
+    }
     .jumbotron-section_title {
         font-family: $font-title;
         font-weight: bold;
